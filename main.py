@@ -20,8 +20,8 @@ from langchain.memory import StreamlitChatMessageHistory
 
 def main():
     st.set_page_config(
-    page_title="DirChat",
-    page_icon=":books:")
+    page_title="yumchangchat",
+    page_icon="🏫")
     st.image('yumchang.png')
     st.title("_염창중학교 :red[Q&A]_ 🏫")
 
