@@ -23,7 +23,7 @@ def main():
     page_title="yumchangchat",
     page_icon="🏫")
     st.image('yumchang.png')
-    st.title("_염창중학교 :red[Q&A]_ 🏫", divider='rainbow')
+    st.title("_염창중학교 :red[Q&A]_ 🏫")
     st.header("😶주의!이 챗봇은 참고용으로 사용하세요!", divider='rainbow')
 
     if "conversation" not in st.session_state:
