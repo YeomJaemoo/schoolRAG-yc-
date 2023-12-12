@@ -24,6 +24,7 @@ def main():
     page_icon="🏫")
     st.image('yumchang.png')
     st.title("_염창중학교 :red[Q&A]_ 🏫")
+    st.text("😶주의!이 챗봇은 참고용으로 사용하세요!")
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
